@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const LoaderLink = () => {
+const LoaderLink = () => {
   return (
-    <div>LoaderLink</div>
+    <div>
+      
+    </div>
   )
 }
+
+export default LoaderLink

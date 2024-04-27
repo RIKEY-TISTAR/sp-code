@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LoaderButton = () => {
+const Content = ({ getContent }) => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const LoaderButton = () => {
   )
 }
 
-export default LoaderButton
+export default Content
