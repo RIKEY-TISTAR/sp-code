@@ -15,7 +15,7 @@ const ProjectCard = ({ getData }) => {
                             <Image fill loading='lazy' src={'/assets/img/projects/1.jpg'} alt='Изображение проекта' className='w-full h-full object-cover object-center' />
                         </div>
                         <h3 className="text-lg font-medium mb-1">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                        <Link href={''} className='text-blue-500 hover:underline'>Смотреть подробнее</Link>
+                        <Link href={'/projects/' + 'web-project'} className='text-blue-500 hover:underline'>Смотреть подробнее</Link>
                     </article>
                 );
             })}
